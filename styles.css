@@ -1,0 +1,29 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-section {
+  background-image: url("/images/banner/banner1.png");
+  height: 100vh;
+  text-align: right;
+  padding: 25px;
+}
+.header-title {
+  padding-top: 200px;
+  margin-right: 50px;
+}
+.main-title {
+  font-size: 50px;
+}
+.header-description {
+  font-size: 25px;
+  margin: 15px 0;
+}
+.contact-btn {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  background-color: #F15B22;
+  }
