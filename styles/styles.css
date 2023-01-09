@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .header-section {
-  background-image: url("/images/banner/banner1.png"); 
+  background-image: url("../images/banner/banner1.png"); 
   height: 100vh;
   text-align: right;
   padding: 25px;
@@ -87,7 +87,7 @@
 }
 .content {
   padding: 50px;
-  background-image: url(/images/gradient2.png), url(/images/watch.png);
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
   background-size: cover;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
