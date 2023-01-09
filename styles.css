@@ -58,3 +58,26 @@
     color: #1f1f1f;
     font-size: 20px;
 }
+/* My Plan Section  */
+.my-plans{
+    padding: 50px;
+}
+.myplan-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+}
+.myplan-title{
+    text-align: center;
+    font-size: 30px;
+
+}
+.item-subtitle{
+    color: #353535;
+
+}
+.plan-item{
+    text-align: center;
+}
+
