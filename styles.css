@@ -26,85 +26,123 @@
   border-radius: 5px;
   border: none;
   color: aliceblue;
-  background-color: #F15B22;
-  }
+  background-color: #f15b22;
+}
 /* Middle Section Styles  */
-.middle-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.middle-text-section{
-    margin-left: 50px;
+.middle-text-section {
+  margin-left: 50px;
 }
-.icon{
-    height: 15px;
-    width: 15px;
-    background-color: rgb(0, 255, 21);
+.icon {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 255, 21);
 }
-.middle-title{
-    font-size: 40px;
-    margin-bottom: 10px;
-
+.middle-title {
+  font-size: 40px;
+  margin-bottom: 10px;
 }
-.middle-description{
-    font-size: 20px;
-    color: #181818;
-    width: 50%;
-    margin-bottom: 10px;
+.middle-description {
+  font-size: 20px;
+  color: #181818;
+  width: 50%;
+  margin-bottom: 10px;
 }
 .middle-section li {
-    margin-bottom: 10px;
-    color: #1f1f1f;
-    font-size: 20px;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+  font-size: 20px;
 }
 /* My Plan Section  */
-.my-plans{
-    padding: 50px;
+.my-plans {
+  padding: 50px;
 }
-.myplan-items{
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    margin-top: 50px;
+.myplan-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  margin-top: 50px;
 }
-.myplan-title{
-    text-align: center;
-    font-size: 30px;
-
+.myplan-title {
+  text-align: center;
+  font-size: 30px;
 }
-.item-subtitle{
-    color: #353535;
-
+.item-subtitle {
+  color: #353535;
 }
-.plan-item{
-    text-align: center;
+.plan-item {
+  text-align: center;
 }
 
 /* Gradient Section  */
-.gradient-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+.gradient-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
-.content{
-    padding: 50px;
-    background-image:url(/images/gradient2.png), url(/images/watch.png);
-    background-size: cover;
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    width: 80%;
-    color: white;
-
+.content {
+  padding: 50px;
+  background-image: url(/images/gradient2.png), url(/images/watch.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 80%;
+  color: white;
+}
+.btn-call {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+/* Footer Section  */
+.subscribe-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  padding: 60px;
+}
+.footer-discription {
+  width: 50%;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.contact-info {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.input {
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.footer-icons {
+  margin-top: 20px;
+  margin-right: 100px;
 
 }
-.btn-call{
-    background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
-    padding: 15px 25px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: none;
+.subscribe {
+  position: absolute;
+  width: 325px;
+  height: 204px;
+  left: 1046px;
+  top: 2782.26px;
 }
